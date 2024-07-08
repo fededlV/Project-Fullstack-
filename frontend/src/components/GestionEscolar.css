@@ -1,0 +1,43 @@
+/* GestionEscolar.css */
+
+/* Aseguramos que solo afectamos a los botones dentro de las tarjetas */
+.categoria-card button {
+    width: 100%; /* Botón ocupa todo el ancho del card */
+  }
+  
+  .gestion-escolar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra las filas en el contenedor principal */
+    gap: 20px; /* Espacio entre las filas */
+    padding: 20px;
+  }
+  
+  .fila-categorias {
+    display: flex;
+    justify-content: center; /* Centra las tarjetas en la fila */
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+  
+  .categoria-card {
+    flex: 0 1 200px; /* Cada tarjeta ocupa un ancho fijo, ajusta este valor según tu diseño */
+    margin: 10px; /* Espaciado adicional para asegurar un buen diseño */
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido dentro de la tarjeta */
+    justify-content: space-between; /* Asegura que la imagen y el botón estén bien distribuidos */
+  }
+  
+  .categoria-img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del card */
+    height: 150px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+    width: 100%; /* Asegura que el cuerpo del card esté alineado correctamente */
+  }
+  
